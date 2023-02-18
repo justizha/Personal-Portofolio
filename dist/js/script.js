@@ -50,7 +50,7 @@ if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.match
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml1 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
+//Moving Text
 anime.timeline({loop: true})
   .add({
     targets: '.ml1 .letter',
